@@ -1,0 +1,19 @@
+1.  **在 GitHub 上创建一个新仓库**（例如命名为 `tetris-python`），**不要**勾选 "Initialize with README"（因为我们本地已经创建了）。
+2.  **打开终端 (Terminal/Command Prompt)**，进入你的项目目录：
+
+```bash
+# 1. 初始化 Git 仓库
+git init
+
+# 2. 添加所有文件到暂存区
+git add .
+
+# 3. 提交文件 (Commit) - 专业的提交信息很重要
+git commit -m "feat: initial commit of tetris game core logic and documentation"
+
+# 4. 关联远程仓库 (将 URL 替换为你刚才创建的 GitHub 仓库地址)
+git remote add origin https://github.com/YourUsername/tetris-python.git
+
+# 5. 推送到主分支
+git branch -M main
+git push -u origin main
